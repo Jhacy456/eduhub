@@ -1,0 +1,198 @@
+* {
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+}
+
+
+nav {
+  background-color: transparent;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 5px;
+  position: fixed;
+  right: 0;
+  left: 0;
+  top: 0;
+  color: white;
+  font-size: 20px;
+}
+
+
+#nav-items {
+  display: flex;
+  gap: 15pt;
+  align-items: center;
+  text-align: center;
+  padding-left: 50px;
+
+}
+
+
+
+.list-items {
+  list-style-type: none;
+  font-size: 20px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  /* font-weight: 600; */
+  margin-left: 10px;
+  text-transform: capitalize;
+}
+
+nav a {
+  text-decoration: none;
+  color: white;
+  font-size: 30px;
+  align-items: center;
+}
+
+nav button{
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-weight: 700;
+  font-size: 15px;
+  color: #fff;
+  width: 135px;
+  height: 50px;
+  border-radius: 20px;
+  background-color: #0FB78D;
+  border: none;
+}
+
+
+
+.hero {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.651),
+      rgba(0, 0, 0, 0.658)), url(./assets/images/pexels5.jpg);
+  height: 120vh;
+  background-size: 100vh;
+  background-size: cover;
+  padding-top: 50px;
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  color: white;
+  column-gap: 4rem;
+}
+
+.overlay{
+  display: flex;
+  gap: 400px;
+  align-items: center;
+}
+
+.hero-text{
+  width: 500px;
+  font-size: 1.6rem;
+}
+ 
+.hero-text button{
+  margin-top: 20px;
+}
+.features {
+  padding: 50px;
+  display: grid;
+grid-template-columns: repeat(3, 1fr);
+grid-template-rows: 1fr;
+grid-column-gap: 50px;
+grid-row-gap: 0px;
+box-sizing: border-box;
+margin-top: -90px;
+}
+
+.f1{
+  background-color: #5CB100;
+  height: 50vh;
+}
+
+.f2{
+  background-color: #EC661F;
+  height: 50vh;
+}
+
+.f3{
+  background-color: #4FB0DC;
+  height: 50vh;
+}
+
+.features h1 {
+  font-size: 18px;
+  color: #fff;
+  padding: 20px;
+  margin-left: 20px;
+}
+
+.features p{
+  font-size: 18px;
+  color: #fff;
+  padding: 20px; 
+}
+
+.feature-icon {
+  height: 80px;
+  width: 80px;
+  border-radius: 100%;
+  background-color: rgb(225, 225, 225, 0.3);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left:  50px;
+  margin-top: 10px;
+  font-size: 40px;
+}
+
+.about-us {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  width: 80%;
+  margin: auto;
+}
+
+
+.about-text {
+  width: 50%;
+}
+
+.about-img-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 50%;
+}
+
+.about-img {
+  width: 50%;
+}
+
+
+.about-img img {
+  max-width: 100%;
+  min-width: 100%;
+}
+
+
+
+.about-text p {
+  margin-top: 20px;
+}
+
+.about-text h1{
+  font-size: 50px;
+  color: rgb(0, 128, 43);
+}
+
+/* this where I style the play button */
+ 
+.play-btn button {
+  padding: 30px 35px;
+  font-size: 20px;
+  color: white;
+  background-color: #0FB78D;
+  border: none;
+  border-radius: 50%;
+}
